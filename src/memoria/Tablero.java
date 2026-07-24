@@ -16,9 +16,7 @@ public class Tablero {
     private int filas;
     private int columnas;
 
-    // Nombres de archivo dentro de src/memoria/imagenes/
-    // Debe haber al menos 32 imágenes distintas para cubrir el nivel Avanzado
-    // (si tienes menos, el operador % reutiliza imágenes, lo cual también es válido).
+   
     private static final String[] IMAGENES = {
         "carta1.png", "carta2.png", "carta3.png", "carta4.png",
         "carta5.png", "carta6.png", "carta7.png", "carta8.png",
@@ -85,4 +83,4 @@ public class Tablero {
         inicializar(nivel);
     }
 }
-}
+
